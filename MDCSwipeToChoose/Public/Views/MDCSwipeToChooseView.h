@@ -54,4 +54,7 @@
 - (instancetype)initWithFrame:(CGRect)frame
                       options:(MDCSwipeToChooseViewOptions *)options;
 
+
+@property (nonatomic, strong) MDCSwipeToChooseViewOptions *options;
+
 @end
